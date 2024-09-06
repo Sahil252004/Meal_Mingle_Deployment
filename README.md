@@ -1,4 +1,4 @@
-Food Delivery Website Having Users Interface as well as Admin Panel
+Food Delivery Website Having User Interface as well as Admin Panel
 
 User Interface
 
