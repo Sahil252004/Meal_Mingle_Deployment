@@ -14,6 +14,11 @@ const StoreContextProvider = (props) =>{
 
     //functionality for add to cart
     const addToCart = async (itemId) => {
+        if(!token)
+        {
+            alert("User not logged in. Please sign in to add items to the cart.");
+            return;
+        }
         if(!cartItems[itemId])//when product is not there in the cart
         {
             setCartItems((prev) => ({...prev,[itemId]:1}))
