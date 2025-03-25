@@ -16,4 +16,4 @@ export const assets ={
     shopping_minus_icon
 }
 
-export const url = 'http://localhost:4000'
+export const url = 'https://meal-mingle-deployment.onrender.com'
